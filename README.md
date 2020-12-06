@@ -15,27 +15,21 @@ From the InstructionSet.txt file in this repo. I don't have a name for this ISA 
 
 //==== M Type ====//
 
-  Type    op      R0       R1         Memory Addr
-
- [ 00 ][ 0000 ][ 00000 ][ 00000 ][ 0000000000000000 ]
-
-    2      4       5        5             16
+     Type    op      R0       R1         Memory Addr
+     [ 00 ][ 0000 ][ 00000 ][ 00000 ][ 0000000000000000 ]
+        2      4       5        5             16
 
 //==== C Type ====//
 
-  Type    op      R0       R1       R2          EX
-
- [ 00 ][ 0000 ][ 00000 ][ 00000 ][ 00000 ][ 00000000000 ]
-
-    2      4       5        5        5          11
+     Type    op      R0       R1       R2          EX
+     [ 00 ][ 0000 ][ 00000 ][ 00000 ][ 00000 ][ 00000000000 ]
+        2      4       5        5        5          11
 
 //==== F Type ====//
 
-  Type    op                 EX                Error  Halt
-
- [ 00 ][ 0000 ][ 0000 0000 0000 0000 0000 000 ][ 00 ][ 0 ]
-
-    2      4                 23                   2    1
+     Type    op                 EX                Error  Halt
+     [ 00 ][ 0000 ][ 0000 0000 0000 0000 0000 000 ][ 00 ][ 0 ]
+        2      4                 23                   2    1
 
 #### 00 Memory Instructions - 3
 
